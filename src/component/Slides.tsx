@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
-import Navbar from "./navbar";
+import { useEffect, useRef, useState } from "react";
 import ImageSlider from "./ImageSlider";
+import Navbar from "./Navbar";
 
 const Slides = () => {
   const [isSticky, setIsSticky] = useState(false);

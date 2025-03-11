@@ -1,4 +1,3 @@
-import React from "react";
 import StatBox from "./StatBox";
 
 const About = () => {

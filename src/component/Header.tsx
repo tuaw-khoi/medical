@@ -1,5 +1,4 @@
-import React from 'react';
-import Dropdown from './DropDown';
+import DropdownArrow from "./Dropdown";
 
 const Header = () => {
   return (
@@ -11,10 +10,14 @@ const Header = () => {
       </div>
 
       <div className="flex items-center gap-x-2">
-        <img src="src/assets/flagUs.png" alt="Flag" className="w-6 h-4 object-cover" />
+        <img
+          src="src/assets/flagUs.png"
+          alt="Flag"
+          className="w-6 h-4 object-cover"
+        />
         <p>EN</p>
-        <div className='mt-2'>
-        <Dropdown />
+        <div className="mt-2">
+          <DropdownArrow />
         </div>
       </div>
     </div>

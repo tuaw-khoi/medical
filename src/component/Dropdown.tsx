@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const DropdownArrow = () => {
@@ -11,7 +11,9 @@ const DropdownArrow = () => {
         className="flex items-center gap-1"
       >
         <ChevronDown
-          className={`transition-transform ${isOpen ? "rotate-180" : "rotate-0"}`}
+          className={`transition-transform ${
+            isOpen ? "rotate-180" : "rotate-0"
+          }`}
         />
       </button>
 

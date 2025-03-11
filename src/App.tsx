@@ -1,7 +1,7 @@
-import About from "./component/about";
-import Header from "./component/header";
-import Message from "./component/message";
-import Slides from "./component/slides";
+import About from "./component/About.tsx";
+import Header from "./component/Header.tsx";
+import Message from "./component/Message.tsx";
+import Slides from "./component/Slides.tsx";
 
 function App() {
   return (

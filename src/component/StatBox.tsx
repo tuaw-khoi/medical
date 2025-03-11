@@ -1,5 +1,3 @@
-import React from "react";
-
 interface StatBoxProps {
   number: string;
   label: string;

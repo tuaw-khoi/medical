@@ -1,5 +1,3 @@
-import React from "react";
-
 const Message = () => {
   return (
     <div className="min-w-[70%] mx-auto absolute  left-1/2 transform -translate-x-1/2 -translate-y-1/2">

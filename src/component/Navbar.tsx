@@ -1,5 +1,4 @@
-import React from "react";
-import DropdownArrow from "./DropDown";
+import DropdownArrow from "./Dropdown";
 
 const Navbar = () => {
   return (
