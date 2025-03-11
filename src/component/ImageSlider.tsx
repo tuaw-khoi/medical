@@ -1,6 +1,9 @@
 import { useState } from "react";
 
-const images: string[] = ["src/assets/doctor.jpg", "src/assets/tower.jpg"];
+const images: string[] = [
+  "https://s3-alpha-sig.figma.com/img/8bcc/dd06/7a271a40fdcb863da8965bb2ad77fa6b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kh8sOOP~7B9rsrtyF2mkBUFSU~hs6jBfKGy7Bkv4nMjLCTXjXuO6wUiiW0aRepRa6BZ4~XOMN8Drn0S2ujd-H0IsO15cvCHb7RRhtNpSJlKzda34Df82FIx7QiElmHxGkO-g84v7H7ozA5yP1dRp701-OX5v1mA0KMmdbsIkRJQB9gksjfNLlOl2AfiFoj9oPsUq5fjub300mZr1tlKoVQ3nEPyUorqoQqqMVUQI9j9JcEqFDLfp5t3UtRAANGWb1wPhaHsYpVoX8nokut09hzQr3RDZEb~rHl88NlCo8FcVKdTrEt32bNvBfVYSRrUxK5T4KLvAeJ23JnkHrryXeg__",
+  "https://res.cloudinary.com/dfua5nwki/image/upload/t_Banner 16:9/v1741685647/tower_soks7u.jpg",
+];
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);

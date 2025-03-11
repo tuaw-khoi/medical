@@ -47,7 +47,7 @@ const Slides = () => {
         >
           <img
             className="w-[30px]"
-            src="src/assets/alarm.svg"
+            src="https://s3-alpha-sig.figma.com/img/abd5/db57/beff4c0778adedc8da77ae0dbeba288c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AFNjYwxqYcpAIlSKEThB9NSQ3eeMcwlul-wZzDem9CiXfiz~NpZXPvdbPf-RG8ZAd78vSNBygel0nv59u0IOfK~1kL8ypLBXfVKwmHsWoLpQPmFIuecnqnLwY-aIaPA4vRLtl~H50Tonr5zVRDezzFhFzh28YEQmVDotAyAbUsUyKXFddM5M6cc6T1pk5OLEGBrhqEV7JVEiH6CqaeGWXFohoOr50oxhnN0prAWmAW-z67n7tUq0USDKcLXar-PWeXexnGpHgS4brxspe1YRuyvCizeObhQZZmvhqQVW6UU4YVKeTAzFyG2KBvwRut4CRz22ctiO70RDLA43fBJjwA__"
             alt="Emergency Icon"
           />
           <span className="font-bold">Emergency</span>

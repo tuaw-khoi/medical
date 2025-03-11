@@ -11,7 +11,7 @@ const Header = () => {
 
       <div className="flex items-center gap-x-2">
         <img
-          src="src/assets/flagUs.png"
+          src="https://res.cloudinary.com/dfua5nwki/image/upload/t_Thumbnail/v1741686323/flag_l39stz.svg"
           alt="Flag"
           className="w-6 h-4 object-cover"
         />

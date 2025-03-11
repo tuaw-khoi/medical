@@ -17,12 +17,15 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className=" flex">
-            <img className="h-15 w" src="src\assets\logo.svg" alt="" />
-            <img className=" w-35" src="src\assets\name.svg" alt="" />
+            <img
+              className="w-15 h-10"
+              src="https://s3-alpha-sig.figma.com/img/6d97/73ba/37bd794952865f4daf0d0d5b09317f8c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bVIcKAQ6O~w8S~k7~EDhC~mr0~5jlc6DFLOA7PD0RbXG1pgMsbZk7EEk-rS9WmXt-H4MEVwr3-PVT3dxuGCLceaOBb4VGNj2mKJ3B~~aoJVEYThm6VqywIcFYT8whMDdHPPUFbFI7~BhngYQs6iUOP4e5uYUeqXBuun62VGk28oR0i8UNUWWVE4NXPGw94yAx4b2kMoaU-9zZaXRc7Hxs99m5Gz5RAO9-n1FQ2zpcnPQIwhj2lGnyiJM3gaeK7T~5~ZtbwcLjwmUcvX3pfxzTR4EABgxyuVKv43CJtdK6PZvIG1QMMg1aJ9a0NOwHWt9Tj99KkRkF7sf~yOlnri7cg__"
+              alt=""
+            />
           </div>
 
           {/* Navigation Links */}
-          <ul className="hidden md:flex space-x-6 text-gray-700 ">
+          <ul className="hidden md:flex space-x-6 text-gray-700 font-semibold">
             <li className="relative group flex">
               <button className="hover:text-green-600 whitespace-nowrap">
                 Hospital
